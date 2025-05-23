@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "ai-agents-swarm"
+description = "Test project for using AI agents with Swarm SDK"
+authors = ["Kyrylo Kandel"]
+
+version = "0.0.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+swarm = {git = "git+https://github.com/openai/swarm.git"}
+bs4 = "^0.0.2"
